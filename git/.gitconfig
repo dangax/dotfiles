@@ -1,0 +1,8 @@
+[user]
+	name = Dan Gibbs
+	email = dan.gibbs@axminstertools.com
+        signingkey = FD6593FF
+[gpg]
+	program = /usr/local/bin/gpg
+[init]
+	defaultBranch = master
