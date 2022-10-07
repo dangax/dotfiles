@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# E.g. cypress --spec 'cypress/e2e/clearpay/basket.spec.js'
+CYPRESS_video=false npx cypress run --config baseUrl=https://integration.axminster.website "$@"
