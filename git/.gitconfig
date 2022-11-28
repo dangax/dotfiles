@@ -1,8 +1,13 @@
 [user]
 	name = Dan Gibbs
-	email = dan.gibbs@axminstertools.com
+	email = 113597275+dangax@users.noreply.github.com
         signingkey = FD6593FF
 [gpg]
 	program = /usr/local/bin/gpg
 [init]
 	defaultBranch = master
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
